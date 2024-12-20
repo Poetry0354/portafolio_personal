@@ -1,0 +1,70 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Estilos para el inicio */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  border: 3px solid height: 100% #000000;
+}
+
+/* Navbar */
+header {
+  background-color: #b1b2b5; /* Fondo oscuro */
+  color: #000000; /* Texto negro */
+  padding: 10px 20px;
+  border-bottom: 2px solid #444; /* Ajusta el color del borde */
+  position: fixed; /* Fijar el header */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Asegurar que esté sobre otros elementos */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.logo h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e6e6e6; /* Texto gris claro */
+}
+
+.logo p {
+  font-size: 12px;
+  color: #999; /* Texto gris */
+}
+
+/* Navegación */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000000; /* Texto negro */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffd700; 
+}
