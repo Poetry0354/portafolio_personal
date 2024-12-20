@@ -1,4 +1,11 @@
 /*sobre mi */ 
+/*Estilos para el inicio */
+body {
+  font-family: Poppins;
+  background-color: #f8f8f8;
+  color: #333;
+  border: 9px solid height: 100% #000000;
+}
 
 .contenedor_grid {
   display: grid;
@@ -8,7 +15,7 @@
 .texto_perfil {
   margin-top: 140px;
   margin-left: 100px;
-  font-size: 1.55em;
+  font-size: 1.0em;
 }
 /* From Uiverse.io by CristianMontoya98 */ 
 .btn {
@@ -25,7 +32,7 @@
  position: relative;
  z-index: 1;
  overflow: hidden;
-  margin-left: 6em;
+  margin-left: 3em;
   margin-top: 2.5em;
 }
 
@@ -63,7 +70,7 @@ button:hover:after {
   border-radius: 400px;
   display: flex;
   margin-top: 150px;
-  margin-left: 220px;
+  margin-left: 150px;
   width: 480px;
   height: 480px;
   object-fit: cover;
