@@ -100,11 +100,12 @@
 
 #box1 {
     width: 400px;
+    left: 45px;
 }
 
 #box2 {
     top: 30px; /* Empuja el recuadro hacia la mitad verticalmente */
-    left: 65%; /* Empuja el recuadro hacia la mitad horizontalmente */
+    left: 64%; /* Empuja el recuadro hacia la mitad horizontalmente */
     width: 400px;
 }
 
