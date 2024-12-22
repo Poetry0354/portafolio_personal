@@ -15,6 +15,14 @@
     color: #f4c430; /* Color amarillo del diseño */ 
 }
 
+#habilidades {
+    margin-top: 3.5em;
+    margin-left: 3em;
+    font-family: Poppins;   
+    font-size: 1.5em;
+    color: #f4c430; /* Color amarillo del diseño */ 
+}
+
 /* Recuadros para dar a conocer la educación */
 .contenedor {
     display: flex;
@@ -113,4 +121,14 @@
     top: 60%; /* Empuja el recuadro hacia la mitad verticalmente */
     left: 33%; /* Empuja el recuadro hacia la mitad horizontalmente */
     width: 400px;
+}
+
+/* Habilidades */
+#blandas {
+    width: 600px;
+    margin-bottom: 2em;
+}
+#tecnicas {
+    width: 555px;
+    margin-bottom: 2em;
 }
