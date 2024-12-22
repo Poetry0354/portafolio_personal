@@ -29,7 +29,7 @@ body {
   font-family: Poppins;
   background-color: #f8f8f8;
   color: #333;
-  border: 9px solid height: 100% #000000;
+  display: flex;
 }
 
 /* Navbar */

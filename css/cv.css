@@ -1,6 +1,39 @@
 #educacion {
-    margin-top: 6em;
+    margin-top: 3.5em;
     margin-left: 3em;
     font-family: Poppins;   
     font-size: 1.5em;
+    color: #f4c430; /* Color amarillo del diseño */
 }
+
+/* Recuadros para dar a conocer la educación */
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Para que los recuadros salten a la siguiente línea si no caben */
+    gap: 1px; /* Espacio entre los recuadros */
+    margin-top: 2.5em;
+}
+
+.recuadro  {
+    width: 260px;
+    height: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #dfdfdfb0;
+    padding: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    border: 3px solid #444;
+    margin-left: 4em;
+    margin-top: 2.5em;
+    color: #ffd700; 
+}
+.recuadro h3 {
+    color: #f4c430; /* Color amarillo del diseño */
+    margin-bottom: 10px;
+}
+.recuadro p {
+    color: #0f0f0f;
+    font-size: 16px;
+}
+

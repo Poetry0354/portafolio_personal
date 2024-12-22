@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Para que los recuadros salten a la siguiente línea si no caben */
+    gap: 20px; /* Espacio entre los recuadros */
+}
+
+.recuadro {
+    width: 230px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.recuadro h3 {
+    color: #f4c430; /* Color amarillo del diseño */
+    margin-bottom: 10px;
+}
+.recuadro p {
+    color: #333;
+    font-size: 16px;
+}
