@@ -6,6 +6,15 @@
     color: #f4c430; /* Color amarillo del diseño */
 }
 
+#experencia {
+    margin-top: 3.5em;
+    margin-left: 3em;
+    margin-bottom: 1.5em;
+    font-family: Poppins;   
+    font-size: 1.5em;
+    color: #f4c430; /* Color amarillo del diseño */ 
+}
+
 /* Recuadros para dar a conocer la educación */
 .contenedor {
     display: flex;
@@ -37,3 +46,70 @@
     font-size: 16px;
 }
 
+/* Experencia laboral*/
+
+.contenedor2 {
+    width: 95%;
+    height: 680px;
+    background-color: #e6e6e6; /* Color del fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 3.8em;
+    padding: 0;
+    position: relative; /* Asegura que el padre pueda usar `position` */
+    border: 2px solid black; /* Bordes negros */
+    border-radius: 10px;
+}
+
+.contenedor2::before {
+    content: ""; /* Necesario para que el pseudoelemento funcione */
+    position: absolute;
+    top: 50%; /* Centro vertical */
+    left: 2.5; /* Alineada al borde izquierdo */
+    width: 80%; /* Ancho completo */
+    height: 2px; /* Grosor de la línea */
+    background-color: black; /* Color de la línea */
+    transform: translateY(-50%); /* Centrado perfecto */
+}
+
+
+.box {
+    width: 200px; /* Ancho del recuadro */
+    height: 218px; /* Altura del recuadro */
+    background-color: #ccc; /* Color del recuadro */
+    border: 2px solid black; /* Bordes negros */
+    position: absolute; /* Necesario para usar `top` y `left` */
+    top: 30px; /* Empuja el recuadro hacia la mitad verticalmente */
+    left: 30px; /* Empuja el recuadro hacia la mitad horizontalmente */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Suaviza el cambio */
+    padding: 8px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.box p {
+    margin-left: 9px;
+}
+
+.box:hover {
+    transform: scale(1.2); /* Agranda el recuadro un 20% */
+    background-color: #f0a500; /* Cambia el color (opcional) */
+}
+
+#box1 {
+    width: 400px;
+}
+
+#box2 {
+    top: 30px; /* Empuja el recuadro hacia la mitad verticalmente */
+    left: 65%; /* Empuja el recuadro hacia la mitad horizontalmente */
+    width: 400px;
+}
+
+#box3 {
+    top: 60%; /* Empuja el recuadro hacia la mitad verticalmente */
+    left: 33%; /* Empuja el recuadro hacia la mitad horizontalmente */
+    width: 400px;
+}
