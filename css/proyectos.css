@@ -1,0 +1,74 @@
+/** Pagina de proyectos  */
+body {
+    
+}
+
+/*? id */
+#titulo {
+    margin-top: 3.5em;
+    margin-left: 3em;
+    font-family: Poppins;   
+    font-size: 1.5em;
+    color: #f4c430; /* Color amarillo del diseño */
+}
+
+
+/*? Clases*/
+.tarjetas {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; /* Centramos horizontalmente */
+    margin-left: 45px;
+}
+
+.tarjeta {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #272727;
+    
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.tarjeta h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.tarjeta p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+
+.boton {
+    text-decoration: none;
+    font-weight: bold;
+    color: #e2d34a;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
