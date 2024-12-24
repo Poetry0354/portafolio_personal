@@ -1,7 +1,9 @@
 /** Pagina de proyectos  */
-body {
-    
+
+img {
+    border: 5px solid #272727;
 }
+
 
 /*? id */
 #titulo {
@@ -21,7 +23,7 @@ body {
     gap: 20px;
     padding: 20px;
     justify-content: center; /* Centramos horizontalmente */
-    margin-left: 45px;
+    margin-left: 240px;
 }
 
 .tarjeta {
@@ -33,13 +35,14 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 2px solid #272727;
+    border: 5px solid #272727;
     
 }
 
 .tarjeta:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+    background-color: #f8b524; /* Cambia el color (opcional) */
 }
 
 .tarjeta img {
@@ -67,7 +70,7 @@ body {
 .boton {
     text-decoration: none;
     font-weight: bold;
-    color: #e2d34a;
+    color: #333333;
     border: none;
     background: none;
     cursor: pointer;
